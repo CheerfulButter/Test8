@@ -1,25 +1,321 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#273746"
+    android:paddingBottom="5dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/app_bar_main"
     tools:context="cheerfulbutter.test8.MainActivity"
-    android:background="#273746">
+    tools:showIn="@layout/app_bar_main">
 
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5D6D7E"
+        android:tint="#ffff" />
+//itchy balls
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome!"
-        android:textSize="75sp"
+        android:layout_marginLeft="5dp"
+        android:shadowColor="#5D6D7E"
+        android:text="Announcements:"
         android:textColor="#FDFEFE"
-        android:shadowColor="#5D6D7E"/>
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 1"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/bar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/period1Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="8:00 ~ 8:45"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar2"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 2"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period2Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="8:50 ~ 9:35"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar3"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 3"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period3Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="9:40 ~ 10:30"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar4"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar4"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 4"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period4Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="10:35 ~ 11:20"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar5"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar5"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 5"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period5Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="11:35 ~ 12:10"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar6"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar6"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 6"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period6Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="12:50 ~ 13:35"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar7"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar7"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 7"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period7Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="13:40 ~ 14:25"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bar8"
+                    android:layout_width="match_parent"
+                    android:layout_height="2.5dp"
+                    android:background="#000000" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/bar8"
+                    android:background="#ffff" />
+
+                <TextView
+                    android:id="@+id/period8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period 8"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/period8Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:text="14:30 ~ 15:15"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+            // ImageView
+            // android:layout_width="match_parent"
+            // android:layout_height="875dp"
+            // android:background="@drawable/schedule_sheet"
+        </LinearLayout>
+
+    </ScrollView>
+
 </RelativeLayout>

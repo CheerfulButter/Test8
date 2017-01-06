@@ -27,9 +27,9 @@
             android:icon="@mipmap/ic_perm_contact_calendar_black_24dp"
             android:title="School Calender"/>
         <item
-            android:id="@+id/power_school"
+            android:id="@+id/inbox"
             android:icon="@mipmap/ic_grade_black_24dp"
-            android:title="Power School"/>
+            android:title="Inbox"/>
     </group>
 
     <item android:title="Settings">
