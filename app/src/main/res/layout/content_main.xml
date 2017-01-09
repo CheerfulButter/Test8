@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentStart="true"
-                    android:text="8:00 ~ 8:45"
+                    android:text="@string/time1"
                     android:textAlignment="viewEnd"
                     android:textSize="30dp" />
             </RelativeLayout>
