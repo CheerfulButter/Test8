@@ -1,8 +1,12 @@
 # Test 8
 At the end of 1st quarter, we started to design and program an Android App that will function for the convenience of students, but we never got far because of our schedules. The app will show the school events calendar, the schedule for each classes, a link to spreadsheet where students can order Mr. Heebner’s coffee, and much more.
-About the Application:
+
+**About the Application:**
+
 The application will include the following:
+
 Coffee Ordering
+
 Already talked to Mr. Heebner,
 Orders will be subtracted from pre-deposited money
 Students won’t need to go to coffee store until order is ready
