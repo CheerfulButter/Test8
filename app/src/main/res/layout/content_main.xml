@@ -20,13 +20,12 @@
         android:layout_height="100dp"
         android:background="#5D6D7E"
         android:tint="#ffff" />
-//itchy balls
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:shadowColor="#5D6D7E"
-        android:text="@string/Announcement"
+        android:text="@string/announcementColon"
         android:textColor="#FDFEFE"
         android:textSize="20sp" />
 

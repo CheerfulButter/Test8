@@ -5,43 +5,43 @@
         <item
             android:id="@+id/home"
             android:icon="@mipmap/ic_home_black_24dp"
-            android:title="Home"/>
+            android:title="@string/home"/>
         <item
             android:id="@+id/lunch"
             android:icon="@mipmap/ic_room_service_black_24dp"
-            android:title="Lunch" />
+            android:title="@string/lunch" />
         <item
             android:id="@+id/coffee_order"
             android:icon="@mipmap/ic_free_breakfast_black_24dp"
-            android:title="Coffee Order"/>
+            android:title="@string/coffeeOrder"/>
         <item
             android:id="@+id/tea_info"
             android:icon="@mipmap/ic_local_drink_black_24dp"
-            android:title="Tea" />
+            android:title="@string/tea" />
         <item
             android:id="@+id/announcement"
             android:icon="@mipmap/ic_announcement_black_24dp"
-            android:title="Announcement" />
+            android:title="@string/announcement" />
         <item
             android:id="@+id/school_calender"
             android:icon="@mipmap/ic_perm_contact_calendar_black_24dp"
-            android:title="School Calender"/>
+            android:title="@string/schoolCalender"/>
         <item
             android:id="@+id/inbox"
             android:icon="@mipmap/ic_grade_black_24dp"
-            android:title="Inbox"/>
+            android:title="@string/inbox"/>
     </group>
 
-    <item android:title="Settings">
+    <item android:title="@string/settings">
         <menu>
             <item
                 android:id="@+id/user"
                 android:icon="@drawable/ic_menu_share"
-                android:title="User" />
+                android:title="@string/user" />
             <item
                 android:id="@+id/setting"
                 android:icon="@mipmap/ic_settings_black_24dp"
-                android:title="Setting" />
+                android:title="@string/setting" />
         </menu>
     </item>
 
