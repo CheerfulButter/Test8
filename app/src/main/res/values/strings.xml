@@ -6,7 +6,15 @@
     <string name="announcementColon">Announcements:</string>
     <string name="period1">Period 1</string>
     <string name="time1">8:00 ~ 8:45</string>
-    <string name="time2">9:50 ~ </string>
+    <string name="period2">Period 2</string>
+    <string name="time2">8:50 ~ 9:35 </string>
+    <string name="period3">Period 3</string>
+    <string name="time3">9:40 ~ 10:30</string>
+    <string name="period4">Period 4</string>
+    <string name="time4">10:35 ~ 11:20</string>
+    <string name="period5">Period 5</string>
+    <string name="time5">11:35 ~ 12:10</string>
+    <string name=
     <string name="home">Home</string>
     <string name="lunch">Lunch</string>
     <string name="coffeeOrder">Coffee Order</string>
