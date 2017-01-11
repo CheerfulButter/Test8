@@ -167,12 +167,13 @@
                     android:id="@+id/period4Time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentStart="true"
                     android:text="@string/time4"
 
                     android:textAlignment="viewEnd"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="11dp" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -238,9 +239,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentStart="true"
-                    android:text="12:50 ~ 13:35"
+                    android:text="@string/time6"
                     android:textAlignment="viewEnd"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -263,7 +264,7 @@
                     android:id="@+id/period7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Period 7"
+                    android:text="@string/period7"
                     android:textSize="30sp" />
 
                 <TextView
@@ -272,9 +273,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentStart="true"
-                    android:text="13:40 ~ 14:25"
+                    android:text="@string/time7"
                     android:textAlignment="viewEnd"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -297,7 +298,7 @@
                     android:id="@+id/period8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Period 8"
+                    android:text="@string/period8"
                     android:textSize="30sp" />
 
                 <TextView
@@ -306,7 +307,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentStart="true"
-                    android:text="14:30 ~ 15:15"
+                    android:text="@string/time8"
                     android:textAlignment="viewEnd"
                     android:textSize="30dp" />
             </RelativeLayout>
