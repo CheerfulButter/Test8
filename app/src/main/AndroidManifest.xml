@@ -23,7 +23,11 @@
         <activity android:name=".TeaOrder" />
         <activity android:name=".Annoucement" />
         <activity android:name=".SchoolCalender" />
-        <activity android:name=".Inbox"></activity>
+        <activity android:name=".Inbox" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".UserSettings"></activity>
     </application>
 
 </manifest>

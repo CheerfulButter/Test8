@@ -105,8 +105,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.user) {
             Toast.makeText(this,"User Setting",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent ( this,UserSettings.class);
+            startActivity(intent);
         } else if (id == R.id.setting) {
             Toast.makeText(this,"App Settings",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent ( this,SettingsActivity.class );
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
