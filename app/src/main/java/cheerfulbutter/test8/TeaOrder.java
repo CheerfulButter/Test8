@@ -11,7 +11,6 @@ public class TeaOrder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tea_order);
 
-
         WebView view = new WebView(this);
         view.getSettings().setJavaScriptEnabled(true);
         view.loadUrl("https://sites.google.com/a/mca.org.tw/hsdailybulletin/");
