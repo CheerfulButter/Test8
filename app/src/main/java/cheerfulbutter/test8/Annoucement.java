@@ -11,9 +11,10 @@ public class Annoucement extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_annoucement);
 
+
         WebView view = new WebView(this);
         view.getSettings().setJavaScriptEnabled(true);
-        view.loadUrl("file:///android_asset/HSdailyBulletin.html");
+        view.loadUrl("https://sites.google.com/a/mca.org.tw/hsdailybulletin/");
         setContentView(view);
 
     }
