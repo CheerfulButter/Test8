@@ -15,11 +15,6 @@
     tools:showIn="@layout/app_bar_main">
 
 
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#5D6D7E"
-        android:tint="#ffff" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -315,5 +310,14 @@
         </LinearLayout>
 
     </ScrollView>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5D6D7E"
+        android:tint="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton" />
 
 </RelativeLayout>
