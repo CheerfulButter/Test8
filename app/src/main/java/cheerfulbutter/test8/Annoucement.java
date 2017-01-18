@@ -22,6 +22,7 @@ public class Annoucement extends AppCompatActivity {
         view.loadUrl("https://sites.google.com/a/mca.org.tw/hsdailybulletin/");
         setContentView(view);
         starterIntent = getIntent();
+
     }
 
 
@@ -50,4 +51,5 @@ public class Annoucement extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
