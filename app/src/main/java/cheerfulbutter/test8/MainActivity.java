@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            drawer.openDrawer(GravityCompat.START);
+            //super.onBackPressed();
         }
     }
 
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.home) {
             Toast.makeText(this,"Home",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, MainActivity.class);
+            finish();
             startActivity(intent);
         } else if (id == R.id.lunch){
             Toast.makeText(this,"Lunch",Toast.LENGTH_SHORT).show();
