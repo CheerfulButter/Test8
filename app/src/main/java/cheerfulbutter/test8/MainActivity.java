@@ -1,6 +1,7 @@
 package cheerfulbutter.test8;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -30,6 +33,16 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        LinearLayout layout = (LinearLayout) findViewById(R.id.linear);
+        for (int i = 0; i < 10; i++) {
+            ImageView imageView = new ImageView(this);
+            imageView.setId(i);
+            imageView.setPadding(2, 2, 2, 2);
+            imageView.setImageResource(R.drawable.test2);
+            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+            layout.addView(imageView);
+        }
     }
 
     @Override
