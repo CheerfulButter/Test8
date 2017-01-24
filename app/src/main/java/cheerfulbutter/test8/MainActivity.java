@@ -34,15 +34,10 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        LinearLayout layout = (LinearLayout) findViewById(R.id.linear);
-        for (int i = 0; i < 10; i++) {
-            ImageView imageView = new ImageView(this);
-            imageView.setId(i);
-            imageView.setPadding(2, 2, 2, 2);
-            imageView.setImageResource(R.drawable.test2);
-            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
-            layout.addView(imageView);
-        }
+
+
+
+        LinearLayout layout = (LinearLayout)findViewById(R.id.)
     }
 
     @Override
