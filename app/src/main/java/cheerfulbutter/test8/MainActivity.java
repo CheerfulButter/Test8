@@ -1,6 +1,7 @@
 package cheerfulbutter.test8;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -24,12 +27,17 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-            this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+            this, drawer, toolbar, R.string.navigation_drawer_close, R.string.navigation_drawer_open);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+
+
+        LinearLayout layout = (LinearLayout)findViewById(R.id.)
     }
 
     @Override
@@ -38,7 +46,8 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            drawer.openDrawer(GravityCompat.START);
+            //super.onBackPressed();
         }
     }
 
@@ -78,6 +87,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.home) {
             Toast.makeText(this,"Home",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, MainActivity.class);
+            finish();
             startActivity(intent);
         } else if (id == R.id.lunch){
             Toast.makeText(this,"Lunch",Toast.LENGTH_SHORT).show();

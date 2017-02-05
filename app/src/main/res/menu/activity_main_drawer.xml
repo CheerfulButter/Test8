@@ -9,11 +9,11 @@
         <item
             android:id="@+id/lunch"
             android:icon="@mipmap/ic_room_service_black_24dp"
-            android:title="@string/lunch" />
+            android:title="@string/lunch"/>
         <item
             android:id="@+id/coffee_order"
             android:icon="@mipmap/ic_free_breakfast_black_24dp"
-            android:title="@string/coffeeOrder"/>
+            android:title="@string/coffeeOrder" />
         <item
             android:id="@+id/tea_info"
             android:icon="@mipmap/ic_local_drink_black_24dp"

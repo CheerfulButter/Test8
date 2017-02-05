@@ -6,10 +6,9 @@
 
 
     <item
-        android:title="Information"
-        android:id="@+id/info"
-        android:icon="@mipmap/ic_info_outline_white_24dp"
+        android:title="@string/refresh"
+        android:id="@+id/refresh"
+        android:icon="@mipmap/ic_refresh_white_24dp"
         app:showAsAction="always"/>
-
 
 </menu>
