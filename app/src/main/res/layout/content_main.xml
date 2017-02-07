@@ -153,13 +153,13 @@
                     android:id="@+id/period4Time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/time4"
-
-                    android:textAlignment="viewEnd"
-                    android:textSize="30sp"
                     android:layout_alignParentBottom="true"
+
                     android:layout_alignParentStart="true"
-                    android:layout_marginBottom="11dp" />
+                    android:layout_marginBottom="11dp"
+                    android:text="@string/time4"
+                    android:textAlignment="viewEnd"
+                    android:textSize="30sp" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -301,21 +301,30 @@
         </LinearLayout>
 
     </ScrollView>
+
     <HorizontalScrollView
         android:id="@+id/horizontal_scroll"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="100dp">
+
         <LinearLayout
+            android:id="@+id/linear"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/linear"
             android:orientation="horizontal"
             android:weightSum="1">
-                <cheerfulbutter.test8.DynamicImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/test1" />
+
+            <cheerfulbutter.test8.DynamicImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test1" />
+
+            <cheerfulbutter.test8.DynamicImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test3" />
 
         </LinearLayout>
     </HorizontalScrollView>
