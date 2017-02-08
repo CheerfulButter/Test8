@@ -318,13 +318,15 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/test1" />
+                android:src="@drawable/test1"
+                android:adjustViewBounds="false" />
 
             <cheerfulbutter.test8.DynamicImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/test3" />
+                android:src="@drawable/test3"
+                android:adjustViewBounds="false"/>
 
         </LinearLayout>
     </HorizontalScrollView>
