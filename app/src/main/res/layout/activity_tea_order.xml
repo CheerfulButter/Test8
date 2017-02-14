@@ -10,4 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cheerfulbutter.test8.TeaOrder">
 
+    <TextView
+        android:text="http://www.georgpeck.com/"
+        android:id="@+id/TextView01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:autoLink="web"
+        android:linksClickable="true">
+    </TextView>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/georgepeck" />
+    android:contentDescription:"@string/desc"
+
 </RelativeLayout>
