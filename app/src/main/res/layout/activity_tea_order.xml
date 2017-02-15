@@ -4,32 +4,52 @@
     android:id="@+id/activity_tea_order"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cheerfulbutter.test8.TeaOrder">hjhgjhgjhgj
-    <ImageView
-        android:id="@+id/kungFuTea"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/georgepeck"
-        android:layout_below="@+id/TextView01"/>
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:linksClickable="true"
-        android:text="http://www.georgpeck.com/"/>
+    tools:context="cheerfulbutter.test8.TeaOrder">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:text="http://www.georgpeck.com/" />
+
+                <ImageView
+                    android:id="@+id/kungFuTea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_below="@+id/TextView01"
+                    android:src="@drawable/georgepeck" />
 
 
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/kungFuTea"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:text="http://www.kungfutea.com.tw/" />
+            </RelativeLayout>
 
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_below="@id/kungFuTea"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:linksClickable="true"
-        android:text="http://www.kungfutea.com.tw/"/>
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

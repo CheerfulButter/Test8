@@ -3,8 +3,8 @@
     <string name="app_name">Morrison Connect</string>
     <string name="title">The Morrison App</string>
     <string name="team">By the DJS Development Team</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="announcementColon">Announcements:</string>
     <string name="period1">Period 1</string>
     <string name="time1">8:00 ~ 8:45</string>
