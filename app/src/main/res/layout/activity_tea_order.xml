@@ -32,10 +32,10 @@
                     android:id="@+id/kungFuTea"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextView01"
                     android:layout_gravity="center"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
-                    android:layout_below="@+id/TextView01"
                     android:src="@drawable/georgepeck" />
 
 
