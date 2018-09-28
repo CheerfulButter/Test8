@@ -1,4 +1,6 @@
-# Test 8
+(This project has ended and been transfered to Morrison's private development team)
+
+# Morrison Connecet Test 8 
 At the end of 1st quarter, we started to design and program an Android App that will function for the convenience of students, but we never got far because of our schedules. The app will show the school events calendar, the schedule for each classes, a link to spreadsheet where students can order Mr. Heebner’s coffee, and much more.
 
 **About the Application:**
